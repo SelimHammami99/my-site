@@ -1,5 +1,6 @@
 import IntroCard from "@/components/intro-card";
 import Languages from "@/components/languages";
+import Projects from "@/components/projects";
 import Skills from "@/components/skills";
 import WorkExperience from "@/components/work-experience";
 
@@ -11,6 +12,7 @@ export default function Home() {
         <WorkExperience />
         <Skills />
         <Languages />
+        <Projects />
       </div>
     </main>
   );

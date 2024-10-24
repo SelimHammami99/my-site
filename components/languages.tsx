@@ -47,7 +47,9 @@ const Languages = () => {
                   <img
                     src={language.icon}
                     alt={language.name}
-                    className="w-5 h-5 rounded-full mr-2"
+                    className="w-5 h-5 rounded-full mr-2 "
+                    loading="lazy"
+                    style={{ color: "transparent" }}
                   />
                   {language.name}
                 </Badge>

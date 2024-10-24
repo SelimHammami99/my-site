@@ -12,12 +12,25 @@ const skills = [
     icon: "nextjs.svg",
   },
   {
-    name: "Tailwind CSS",
-    icon: "tailwind.svg",
+    name: "Vite",
+    icon: "vite.svg",
   },
   {
     name: "TypeScript",
     icon: "ts.svg",
+  },
+  {
+    name: "Tailwind CSS",
+    icon: "tailwind.svg",
+  },
+  {
+    name: "Shadcn/ui",
+    icon: "shadcn-ui.svg",
+  },
+
+  {
+    name: "Framer Motion",
+    icon: "framer-motion.svg",
   },
   {
     name: "PostgreSQL",
@@ -30,14 +43,6 @@ const skills = [
   {
     name: "Git",
     icon: "git.svg",
-  },
-  {
-    name: "Shadcn/ui",
-    icon: "shadcn-ui.svg",
-  },
-  {
-    name: "Vite",
-    icon: "vite.svg",
   },
 ];
 
