@@ -16,6 +16,7 @@ const PersonalDialog = () => {
             src={"/profile.jpg"}
             className="aspect-square w-full h-full"
           />
+          <div className="absolute  w-10 h-10 rounded-full border-2 border-green-600  z-10 flex items-center justify-center" />
         </div>
       </DialogTrigger>
       <DialogContent>

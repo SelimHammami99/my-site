@@ -1,4 +1,5 @@
 import IntroCard from "@/components/intro-card";
+import Skills from "@/components/skills";
 import WorkExperience from "@/components/work-experience";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="flex flex-col flex-wrap items-center justify-center mt-[3rem] mb-[6rem] p-3 w-full max-w-[650px]">
         <IntroCard />
         <WorkExperience />
+        <Skills />
       </div>
     </main>
   );
