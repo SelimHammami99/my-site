@@ -54,7 +54,7 @@ const Skills = () => {
                   <img
                     src={skill.icon}
                     alt={skill.name}
-                    className={"h-8 w-8"}
+                    className={"h-6 w-6"}
                   />
                 </div>
               </TooltipTrigger>
