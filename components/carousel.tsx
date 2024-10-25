@@ -91,7 +91,7 @@ export default function BlogsCarousel({
             <Card
               className={`bg-gradient-to-br overflow-hidden from-red-500 via-teal-500 to-green-500 border-0 rounded-lg shadow-md`}
             >
-              <CardContent className="p-6 aspect-[3/4] flex flex-col justify-between">
+              <CardContent className="p-6 aspect-[3/1] sm:aspect-[3/4]  flex flex-col justify-between">
                 <div className="flex flex-row justify-between">
                   <div className="text-lg font-semibold text-white">
                     {item.title}

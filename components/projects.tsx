@@ -23,7 +23,7 @@ const Projects = () => {
     <div className="flex flex-col flex-wrap mt-16 w-full">
       <h1 className="text-md font-semibold">Projects</h1>
       <div className="shrink-0 h-[1px] mt-2 w-full bg-zinc-800"></div>
-      <div className="grid grid-cols-2 gap-4 mt-[0.75rem]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-[0.75rem]">
         {projects.map((project, index) => (
           <a
             key={index}

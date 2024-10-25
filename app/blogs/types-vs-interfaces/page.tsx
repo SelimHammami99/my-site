@@ -73,7 +73,7 @@ const Page = () => {
             simple button component:
           </p>
           <pre className="mt-6 p-4 bg-muted rounded">
-            <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-medium">
+            <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-xs font-medium">
               {`interface ButtonProps {
   label: string;
   onClick: () => void;
@@ -95,7 +95,7 @@ const Button: React.FC<ButtonProps> = ({ label, onClick, disabled }) =>{
             needs extra properties, we can extend ButtonProps easily:
           </p>
           <pre className="mt-6 p-4 bg-muted rounded">
-            <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-medium">
+            <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-xs font-medium">
               {`interface IconButtonProps extends ButtonProps {
   icon: JSX.Element;
 }
@@ -132,7 +132,7 @@ disabled }) => {
             possible values:
           </p>
           <pre className="mt-6 p-4 bg-muted rounded">
-            <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-medium">
+            <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-xs font-medium">
               {`type ButtonVariant = 'primary' | 'secondary' | 'danger';
 
 type ButtonProps = {
@@ -162,7 +162,7 @@ const Button: React.FC<ButtonProps> = ({ label, onClick, variant }) => {
             can be useful for mixing multiple prop structures:
           </p>
           <pre className="mt-6 p-4 bg-muted rounded">
-            <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-medium">
+            <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-xs font-medium">
               {`type Clickable = { onClick: () => void };
 type LinkProps = { href: string } & Clickable;
 

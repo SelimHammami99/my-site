@@ -58,7 +58,12 @@ export default function BlogAnimatedCard({
         <div className="flex flex-col gap-1">
           <div className="flex flex-col justify-around items-start gap-2">
             <div className="flex flex-row justify-center items-center">
-              <img src={icon} alt="nextjs" className="w-4 h-4 mr-2" />
+              <img
+                src={icon}
+                alt={title}
+                loading="lazy"
+                className="w-4 h-4 mr-2"
+              />
               <p className="text-sm dark:text-gray-300">{title}</p>
             </div>
 

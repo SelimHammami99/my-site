@@ -21,7 +21,7 @@ const Page = () => {
             Go back
           </Button>
         </div>
-        <div className="grid grid-cols-2 mt-4 gap-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 mt-4 gap-2">
           {blogs.map((blog, index) => (
             <div key={index}>
               <BlogAnimatedCard

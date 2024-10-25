@@ -58,7 +58,7 @@ const Page = () => {
             certain pages:
           </p>
           <pre className="mt-6 p-4 bg-muted rounded">
-            <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-medium">
+            <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-xs font-medium">
               {`import { NextResponse } from 'next/server';
 
 export function middleware(request) {
