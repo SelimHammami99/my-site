@@ -89,7 +89,7 @@ export default function BlogsCarousel({
         {carouselItems.map((item, index) => (
           <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3 pl-4">
             <Card
-              className={`bg-gradient-to-br ${item.bgColor} ${item.darkBgColor} overflow-hidden border-0 rounded-lg shadow-md`}
+              className={`bg-gradient-to-br ${item.bgColor} overflow-hidden border-0 rounded-lg shadow-md`}
             >
               <CardContent className="p-6 aspect-[3/4] flex flex-col justify-between">
                 <div className="flex flex-row justify-between">
@@ -104,7 +104,7 @@ export default function BlogsCarousel({
                     <ExternalLink className="h-4 w-4" />
                   </Button>
                 </div>
-                <div className="text-sm font-light text-white mt-auto">
+                <div className="text-xs font-light text-white mt-auto">
                   {item.description}
                 </div>
               </CardContent>
