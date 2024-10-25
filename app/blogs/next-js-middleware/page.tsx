@@ -123,6 +123,13 @@ export function middleware(request) {
             requests and responses are handled at the edge.
           </p>
         </div>
+        <Button
+          variant={"outline"}
+          className="font-semibold mt-4"
+          onClick={() => router.push("/blogs")}
+        >
+          See all posts
+        </Button>
       </div>
     </main>
   );

@@ -24,11 +24,11 @@ const WorkExperience = () => {
                 Move JS - Tunis, Tunisia
               </p>
               <p className="text-xs text-left leading-normal text-white/60">
-                I developed the frontend of a content management system,
-                focusing on creating a user-friendly and responsive interface,
-                while also contributing to backend tasks. I optimized the
-                application’s performance and maintainability, improving the
-                overall user experience.
+                Developed the frontend of a content management system, focusing
+                on creating a user-friendly and responsive interface, while also
+                contributing to backend tasks. Optimized the application’s
+                performance and maintainability, improving the overall user
+                experience.
               </p>
             </div>
           </li>
@@ -72,10 +72,9 @@ const WorkExperience = () => {
                 ST2i - Tunis, Tunisia
               </p>
               <p className="text-xs text-left leading-normal text-white/60">
-                This role enriched me with data visualization, teamwork, and
-                responsibility. I contributed effectively, crafting impactful
-                visualizations, optimizing data analysis, and enhancing
-                communication for successful project outcomes.
+                Contributed effectively, crafting impactful visualizations,
+                optimizing data analysis, and enhancing communication for
+                successful project outcomes.
               </p>
             </div>
           </li>

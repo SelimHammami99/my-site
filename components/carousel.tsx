@@ -99,7 +99,7 @@ export default function BlogsCarousel({
                   <Button
                     onClick={() => handleNavigation(item.link)}
                     variant={"link"}
-                    className="text-xs font-light"
+                    className="text-xs font-light pr-0"
                   >
                     <ExternalLink className="h-4 w-4" />
                   </Button>
