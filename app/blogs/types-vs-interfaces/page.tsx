@@ -154,7 +154,7 @@ const Button: React.FC<ButtonProps> = ({ label, onClick, variant }) => {
           <p className="leading-7 text-sm mt-3 font-light">
             In this example, ButtonVariant is a union type that restricts the
             variant prop to specific string values. If you try to pass anything
-            other than ’primary’, ’secondary', or ’danger’, TypeScript will
+            other than ’primary’, ’secondary’, or ’danger’, TypeScript will
             throw an error, ensuring consistency across your application.
           </p>
           <p className="leading-7 text-sm mt-3 font-light">
