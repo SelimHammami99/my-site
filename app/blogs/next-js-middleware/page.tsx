@@ -3,7 +3,7 @@ import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft } from "lucide-react";
 
-const page = () => {
+const Page = () => {
   const router = useRouter();
   return (
     <main className="flex min-w-screen flex-col items-center justify-between ">
@@ -127,4 +127,4 @@ export function middleware(request) {
     </main>
   );
 };
-export default page;
+export default Page;
