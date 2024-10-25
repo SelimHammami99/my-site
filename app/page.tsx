@@ -1,3 +1,4 @@
+import Blogs from "@/components/blogs";
 import IntroCard from "@/components/intro-card";
 import Languages from "@/components/languages";
 import Projects from "@/components/projects";
@@ -13,6 +14,7 @@ export default function Home() {
         <Skills />
         <Languages />
         <Projects />
+        <Blogs />
       </div>
     </main>
   );

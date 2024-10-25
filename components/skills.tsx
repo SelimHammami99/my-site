@@ -49,7 +49,8 @@ const skills = [
 const Skills = () => {
   return (
     <div className="flex flex-col flex-wrap mt-16 w-full">
-      <h1 className="text-xl font-semibold">Skills</h1>
+      <h1 className="text-md font-semibold">Skills</h1>
+      <div className="shrink-0 h-[1px] mt-2 w-full bg-zinc-800"></div>
       <div className="flex flex-row mt-5 gap-4">
         {skills.map((skill) => (
           <TooltipProvider key={skill.name}>
