@@ -23,13 +23,15 @@ const Page = () => {
         </div>
         <div className="grid grid-cols-2 mt-4 gap-2">
           {blogs.map((blog, index) => (
-            <BlogAnimatedCard
-              title={blog.title}
-              description={blog.description}
-              icon={blog.icon}
-              date={blog.date}
-              link={blog.link}
-            />
+            <div key={index}>
+              <BlogAnimatedCard
+                title={blog.title}
+                description={blog.description}
+                icon={blog.icon}
+                date={blog.date}
+                link={blog.link}
+              />
+            </div>
           ))}
         </div>
       </div>
